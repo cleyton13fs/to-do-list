@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="./index.js" defer=""></script>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+
+  <body>
+    <div id="columns-container" class="container">
+      <div class="column" draggable="true">
+        <div class="column-header">Trabalho/Profissional</div>
+        <ul id="work-list" class="sortable-list"></ul>
+        <form id="add-work-form">
+          <input type="text" id="work-input" placeholder="Adicionar uma nova tarefa...">
+          <button type="submit">Adicionar Tarefa</button>
+        </form>
+      </div>
+      <div class="column" draggable="true">
+        <div class="column-header">Pessoal/Casa</div>
+        <ul id="personal-list" class="sortable-list"></ul>
+        <form id="add-personal-form">
+          <input type="text" id="personal-input" placeholder="Adicionar uma nova tarefa...">
+          <button type="submit">Adicionar Tarefa</button>
+        </form>
+      </div>
+      <div class="column" draggable="true">
+        <div class="column-header">Saúde/Bem-estar</div>
+        <ul id="health-list" class="sortable-list"></ul>
+        <form id="add-health-form">
+          <input type="text" id="health-input" placeholder="Adicionar uma nova tarefa...">
+          <button type="submit">Adicionar Tarefa</button>
+        </form>
+      </div>
+      <div class="column" draggable="true">
+        <div class="column-header">Educação/Aprendizado</div>
+        <ul id="education-list" class="sortable-list"></ul>
+        <form id="add-education-form">
+          <input type="text" id="education-input" placeholder="Adicionar uma nova tarefa...">
+          <button type="submit">Adicionar Tarefa</button>
+        </form>
+      </div>
+      <div class="column" draggable="true">
+        <div class="column-header">Financeiro</div>
+        <ul id="financial-list" class="sortable-list"></ul>
+        <form id="add-financial-form">
+          <input type="text" id="financial-input" placeholder="Adicionar uma nova tarefa...">
+          <button type="submit">Adicionar Tarefa</button>
+        </form>
+      </div>
+      <div class="column" draggable="true">
+        <div class="column-header">Social/Relacionamentos</div>
+        <ul id="social-list" class="sortable-list"></ul>
+        <form id="add-social-form">
+          <input type="text" id="social-input" placeholder="Adicionar uma nova tarefa...">
+          <button type="submit">Adicionar Tarefa</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+
+
+  </body>
+
+</html>
